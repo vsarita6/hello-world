@@ -1,0 +1,39 @@
+    public class MyFirstApp {
+    	public static void main (String[] args){
+    		// Testing
+    		System.out.println("I rule!");
+    		System.out.println("The World");
+    		// Do something - Statements: declarations, assignments, method calls, etc.
+    		int x = 3;
+    		String name = "Dirk";
+    		x = x * 17;
+    		System.out.print("x is " + x);
+    		double d = Math.random();
+    		System.out.print("\n"+d+"\n");
+    		// Do something again and again - Loops: for and while.
+    		while (x > 12){
+    			x = x - 1;
+    			System.out.println(x);
+    		}
+    		for (int y = 0; y < 10; y = y + 1){
+    			System.out.print("y is now " + y + "\n");
+    		}
+    		// Do something under this condition - Branching: if/else tests.
+    		x = 0;
+    		for (x = 0; x < 20; x++){
+    			if (x == 10){
+    				System.out.println("x must be 10");
+    			}else{
+    				System.out.println("x isn't 10");
+    			}
+    			if ((x < 3) & (name.equals("Dirk"))){
+    				System.out.println("Gently");
+    			}
+    		}
+    		System.out.println("This line runs no matter what");
+    		main(3);
+    	}
+    	public static void main(int i){
+    		System.out.print("Hi " + i);
+    	}
+    } 
